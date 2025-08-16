@@ -1,0 +1,34 @@
+* {
+   font-family: "Space Mono", "Lucida Console", monospace;
+}
+#canvas {
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: #fff;
+}
+h1 {
+    color: #00ff7b;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+h2 {
+    color: #f6fffa;
+}
+iframe {
+    width: 70%;
+}
+body {
+    text-align: center;
+    color: #f6fffa;
+}
+.sounds {
+    border-style: solid;
+    border-color:#f6fffa;
+    border-width: 1px;
+    width: 55%;
+    margin: 10px auto;
+    padding: 5px 1px;
+}
