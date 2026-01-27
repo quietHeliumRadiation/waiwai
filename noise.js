@@ -9,7 +9,7 @@ ctx = canvas.getContext('2d');
 window screen width and height. */
 function resize() {
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = window.innerHeight*2;
 }
 resize();
 window.onresize = resize;
