@@ -2,8 +2,22 @@
    font-family: "Space Mono", "Lucida Console", monospace;
 }
 
+/* Header */
+h1 {
+    color: #00ff7b;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.home {
+    color: #f6fffa;
+}
+
+h2 {
+    color:  #00ff7b;
+}
+
 /* Nav bar */
-nav{
+nav {
     display: flex;
     justify-content: center;
 }
@@ -41,14 +55,6 @@ ul li a:hover {
     opacity: 0.8;
     background-color: #fff;
 }
-h1 {
-    color: #00ff7b;
-    font-size: 50px;
-    margin-bottom: 0;
-}
-h2 {
-    color: #f6fffa;
-}
 iframe {
     width: 70%;
 }
@@ -83,4 +89,9 @@ img {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Music */
+p {
+    color: black;
 }
