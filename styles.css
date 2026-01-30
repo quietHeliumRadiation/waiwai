@@ -45,6 +45,18 @@ ul li a:hover {
   color: #00ff7b;
 }
 
+/* About */
+.center-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.left-align {  
+    text-align: left;
+}
+
+
 /* Noise */
 
 #canvas {
